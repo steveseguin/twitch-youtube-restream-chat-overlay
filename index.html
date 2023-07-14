@@ -499,6 +499,13 @@ yt-live-chat-membership-item-renderer[is-deleted] {
 	} else {
 		window.location.href = "https://github.com/steveseguin/live-chat-overlay#readme";
 	}
+
+	if (urlParams.has("chroma")){
+		var chroma = urlParams.get("chroma") || "0F0";
+		document.body.style.backgroundColor = "#"+chroma;
+	} else if (urlParams.has("transparent")){
+		document.body.style.backgroundColor = "#000";
+	}
 	
 	var centering = false;
 	if (urlParams.has("center")){
