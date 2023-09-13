@@ -1,4 +1,4 @@
-##### Status Update of this project and its future :
+#### Status Update of this project and its future :
 Just a note that I'm shifting my focus from this project to SocialStream.Ninja going forward (https://github.com/steveseguin/social_stream). I will still support this simple chat overlay extension, but my main development efforts will be focused on the more capable and scalable SocialStream.Ninja extension; check it out.
 
 ##### Having issues with Twitch overlays loading slow?
