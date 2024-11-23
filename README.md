@@ -1,5 +1,9 @@
-#### Status Update of this project and its future :
-Just a note that I'm shifting my focus from this project to SocialStream.Ninja going forward (https://github.com/steveseguin/social_stream). I will still support this simple chat overlay extension, but my main development efforts will be focused on the more capable and scalable SocialStream.Ninja extension; check it out.
+____ START OF UPDATE ___
+# Chat.Overlay.Ninja is now End-of-life. Visit [SocialStream.Ninja ](https://socialstream.ninja) to get its replacement
+
+Google has killed off Manifest Version 2 extensions, so this extension will no longer work. Grab SocialStream.Ninja instead; it Manifest Version 3 support and over 100 supported sites, plus more.
+
+___ END OF UPDATE ___
 
 ##### Having issues with Twitch overlays loading slow?
 If having any problems with Twitch overlays loading slowly, or Twitch profile photos not loading at all, please update the extension to the newest version. I'm also on Discord at discord.vdo.ninja if seeking support or bug reports.
