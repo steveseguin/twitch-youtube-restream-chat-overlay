@@ -1,7 +1,9 @@
 ____ START OF UPDATE ___
-# Visit [SocialStream.Ninja ](https://socialstream.ninja) FOR THE NEW VERSION
+# > Visit [SocialStream.Ninja ](https://socialstream.ninja) INSTEAD <
 
-Google has killed off Manifest Version 2 extensions, so this extension will no longer work. Grab SocialStream.Ninja instead; it Manifest Version 3 support and over 100 supported sites, plus more.
+This extension is no longer supported. Visit https://socialstream.ninja instead, which is its replacement. It's called SocialStream.Ninja.
+
+Background: Google has killed off Manifest Version 2 extensions, so this extension will no longer work. Grab SocialStream.Ninja instead; it Manifest Version 3 support and over 100 supported sites, plus more. SocialStream.Ninja is more complex, but also a lot more powerful. It replaces chat.overlay.ninja.
 
 ___ END OF UPDATE ___
 
