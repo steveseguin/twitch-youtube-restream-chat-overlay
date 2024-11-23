@@ -8,14 +8,10 @@ Background: Google has killed off Manifest Version 2 extensions, so this extensi
 
 
 ___ END OF UPDATE ___
-
-
-
-
-##### Having issues with Twitch overlays loading slow?
-If having any problems with Twitch overlays loading slowly, or Twitch profile photos not loading at all, please update the extension to the newest version. I'm also on Discord at discord.vdo.ninja if seeking support or bug reports.
-
-
+#
+#
+#
+#
 YouTube/Twitch and More - Chat Overlay Ninja
 ============================================
 
