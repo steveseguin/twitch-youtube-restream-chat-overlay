@@ -1,15 +1,38 @@
 {
   "name": "Chat Overlay for Youtube, Twitch & more",
   "description": "Add live chat from Youtube, Twitch, Restream and more to your OBS as a browser overlay. Feature requests accepted!",
-  "manifest_version": 2,
-  "version": "1.2.10",
+  "manifest_version": 3,
+  "version": "2.0.0",
   "homepage_url": "http://chat.overlay.ninja/",
   "icons": {
     "128": "icons/icon-128.png"
   },
   "permissions": [
-    "https://*.sli.do/*", "https://youtube.com/*", "https://www.youtube.com/*", "https://studio.youtube.com/*", "https://www.twitch.tv/*", "https://glimesh.tv/*", "https://chat.restream.io/*", "https://www.instagram.com/*", "https://instagram.com/*", "https://trovo.live/chat/*", "https://www.twitter.com/*", "https://www.twitter.com/*", "https://facebook.com/*", "https://*.zoom.us/*", "https://www.facebook.com/*", "https://www.mobcrush.com/*", "https://www.crowdcast.io/e/*", "https://www.polleverywhere.com/discourses/*", "https://viz.polleverywhere.com/discourses/*", "storage"
+    "storage"
   ],
+  "host_permissions": [
+    "https://*.sli.do/*",
+    "https://youtube.com/*",
+    "https://www.youtube.com/*",
+    "https://studio.youtube.com/*",
+    "https://www.twitch.tv/*",
+    "https://glimesh.tv/*",
+    "https://chat.restream.io/*",
+    "https://www.instagram.com/*",
+    "https://instagram.com/*",
+    "https://trovo.live/chat/*",
+    "https://www.twitter.com/*",
+    "https://facebook.com/*",
+    "https://*.zoom.us/*",
+    "https://www.facebook.com/*",
+    "https://www.mobcrush.com/*",
+    "https://www.crowdcast.io/e/*",
+    "https://www.polleverywhere.com/discourses/*",
+    "https://viz.polleverywhere.com/discourses/*"
+  ],
+  "background": {
+    "service_worker": "service_worker.js"
+  },
   "content_scripts": [
 	  {
 		"css": ["main.css"],
