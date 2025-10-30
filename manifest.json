@@ -21,6 +21,7 @@
     "https://www.instagram.com/*",
     "https://instagram.com/*",
     "https://trovo.live/chat/*",
+    "https://kick.com/*",
     "https://www.twitter.com/*",
     "https://facebook.com/*",
     "https://*.zoom.us/*",
@@ -48,6 +49,11 @@
 		"css": ["main.css"],
 		"js": ["jquery.js", "sources/twitch.js"],
 		"matches": ["https://www.twitch.tv/popout/*"]
+	  },
+	  {
+		"css": ["main.css"],
+		"js": ["sources/kick.js"],
+		"matches": ["https://kick.com/popout/*/chat", "https://kick.com/*/popout/*/chat", "https://kick.com/*/chatroom"]
 	  },
 	  {
 		"css": ["main.css"],
