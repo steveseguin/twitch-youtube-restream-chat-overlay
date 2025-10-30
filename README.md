@@ -1,21 +1,10 @@
+# Chat Overlay for YouTube, Twitch & more
 
-# UPDATE: Visit [SocialStream.Ninja ](https://socialstream.ninja) INSTEAD.
+This Chrome extension turns your live chat and comment threads into selectable overlays you can forward to OBS Studio (or another production tool) without chroma keying or awkward window captures. Click a message in a supported chat window and the extension pushes it to the overlay window instantly.
 
-This extension is no longer supported. Visit https://socialstream.ninja instead, which is its replacement. It's called SocialStream.Ninja.
+> Need a full workflow suite with dashboards, automation, and 100+ integrations? Take a look at [SocialStream.Ninja](https://socialstream.ninja/). It has the bigger feature set, while this extension focuses on a streamlined highlight workflow.
 
-Background: Google has killed off Manifest Version 2 extensions, so this extension will no longer work. Grab SocialStream.Ninja instead; it has Manifest Version 3 support, standalone desktop app options, and over 100 supported sites, plus more. SocialStream.Ninja is more complex, but also is a lot more powerful. It replaces chat.overlay.ninja.
-
- CLICK HERE -> [SocialStream.Ninja ](https://socialstream.ninja) 
-
-___ END OF UPDATE ___
-#
-#
-#
-#
-YouTube/Twitch and More - Chat Overlay Ninja
-============================================
-
-This Chrome browser extension turns your social chat and comments section into selectable social overlays for OBS Studio or other studio production software.
+This Chat overlay extensions will forward the selected chat message over a web-socket connection to a secondary webpage, which can be used in OBS-Studio as a simple browser source. This makes capturing the chat messages from a live video stream very easy and fast -- no Chroma keying or window-capturing needed. It also makes customizing the style pretty easy, with no Chrome extension development needed.
 
 This Chat overlay extensions will forward the selected chat message over a web-socket connection to a secondary webpage, which can be used in OBS-Studio as a simple browser source. This makes capturing the chat messages from a live video stream very easy and fast -- no Chroma keying or window-capturing needed. It also makes customizing the style pretty easy, with no Chrome extension development needed.
 
@@ -135,7 +124,7 @@ function sendBasicMSG(){
 	  var data = {};
 	  data.chatname = "TEST USER";
 	  data.chatmessage = "TEST MESSAGE HERE";
-	  data.chatimg = 'http://chat.overlay.ninja/twitch.png';
+	  data.chatimg = 'twitch.png';
 	  data.hasDonation = "$10 CAD";
 	  data.type = "someAppSource";
 	
@@ -173,4 +162,3 @@ The code for this project was originally based on the works of:
 - https://github.com/aaronpk/live-chat-overlay (aaronpk).
 
 -steve
-
